@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.colorful-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #342ead;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+
+.header-area{
+    height: 700px;
+    padding-left: 15%;
+    padding-right: 10%;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.half-width-div{
+    width: 50%;
+    float: left;
+    padding-top: 10%;
+}
+.half-width-div img{
+    width: 90%;
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #5c57bd, #342ead);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding: 10px 20px;   
+}
+.description-text{
+    margin-bottom: 50px;
+}
+
+
+.biography-area{
+    height: 600px;
+    padding-left: 15%;
+    padding-right: 10%;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.latest-work-area{
+    height: 500px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.center-headline{
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+.experience-part{
+    
+    width: 30%;
+    padding-left: 3%;
+    padding-bottom: 100px;
+    float: left;
+}
+.experience-part img{
+    width: 100%;
+}
